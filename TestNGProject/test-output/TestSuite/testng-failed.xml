@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]" parallel="tests">
+  <parameter name="browser" value="Chrome"/>
+  <test name="ChromeTest(failed)" parallel="tests">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="testngpackage.Test_1">
+        <methods>
+          <include name="executSessionOne"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testngpackage.Test_1 -->
+      <class name="testThreadNG.Test_Parallel">
+        <methods>
+          <include name="executSessionOne"/>
+        </methods>
+      </class> <!-- testThreadNG.Test_Parallel -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test name="Firefox(failed)" parallel="tests">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="testngpackage.Test_1">
+        <methods>
+          <include name="executSessionOne"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testngpackage.Test_1 -->
+      <class name="testThreadNG.Test_Parallel">
+        <methods>
+          <include name="executSessionOne"/>
+        </methods>
+      </class> <!-- testThreadNG.Test_Parallel -->
+    </classes>
+  </test> <!-- Firefox(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

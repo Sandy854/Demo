@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="36239" started-at="2020-07-22T07:31:49Z" finished-at="2020-07-22T07:32:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="36239" started-at="2020-07-22T07:31:49Z" finished-at="2020-07-22T07:32:25Z">
+      <class name="com.Test.Verification_Page_de_connexion_EP">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.Test.Verification_Page_de_connexion_EP@396a51ab]" name="beforeTest" is-config="true" duration-ms="33643" started-at="2020-07-22T10:31:49Z" finished-at="2020-07-22T10:32:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="cliquer_sur_le_bouton_se_connecter_du_header()[pri:1, instance:com.Test.Verification_Page_de_connexion_EP@396a51ab]" name="cliquer_sur_le_bouton_se_connecter_du_header" duration-ms="613" started-at="2020-07-22T10:32:23Z" finished-at="2020-07-22T10:32:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cliquer_sur_le_bouton_se_connecter_du_header -->
+        <test-method status="PASS" signature="cliquer_sur_onglet_se_connecter()[pri:2, instance:com.Test.Verification_Page_de_connexion_EP@396a51ab]" name="cliquer_sur_onglet_se_connecter" duration-ms="1661" started-at="2020-07-22T10:32:23Z" finished-at="2020-07-22T10:32:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cliquer_sur_onglet_se_connecter -->
+        <test-method status="PASS" signature="verifier_presence_onglet_creer_un_compte()[pri:3, instance:com.Test.Verification_Page_de_connexion_EP@396a51ab]" name="verifier_presence_onglet_creer_un_compte" duration-ms="26" started-at="2020-07-22T10:32:25Z" finished-at="2020-07-22T10:32:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifier_presence_onglet_creer_un_compte -->
+        <test-method status="PASS" signature="verifier_presence_onglet_se_connecter()[pri:4, instance:com.Test.Verification_Page_de_connexion_EP@396a51ab]" name="verifier_presence_onglet_se_connecter" duration-ms="20" started-at="2020-07-22T10:32:25Z" finished-at="2020-07-22T10:32:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifier_presence_onglet_se_connecter -->
+        <test-method status="PASS" signature="verifier_presence_bouton_facebook()[pri:5, instance:com.Test.Verification_Page_de_connexion_EP@396a51ab]" name="verifier_presence_bouton_facebook" duration-ms="28" started-at="2020-07-22T10:32:25Z" finished-at="2020-07-22T10:32:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifier_presence_bouton_facebook -->
+        <test-method status="PASS" signature="verifier_presence_bouton_google()[pri:6, instance:com.Test.Verification_Page_de_connexion_EP@396a51ab]" name="verifier_presence_bouton_google" duration-ms="28" started-at="2020-07-22T10:32:25Z" finished-at="2020-07-22T10:32:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifier_presence_bouton_google -->
+        <test-method status="PASS" signature="verifier_presence_champ_email()[pri:7, instance:com.Test.Verification_Page_de_connexion_EP@396a51ab]" name="verifier_presence_champ_email" duration-ms="1" started-at="2020-07-22T10:32:25Z" finished-at="2020-07-22T10:32:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifier_presence_champ_email -->
+      </class> <!-- com.Test.Verification_Page_de_connexion_EP -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

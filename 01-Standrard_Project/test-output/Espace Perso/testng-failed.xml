@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [Espace Perso]" parallel="tests">
+  <test name="Vérification Connection EP(failed)" parallel="tests">
+    <classes>
+      <class name="TestRunner.Runner">
+        <methods>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- TestRunner.Runner -->
+    </classes>
+  </test> <!-- Vérification Connection EP(failed) -->
+</suite> <!-- Failed suite [Espace Perso] -->

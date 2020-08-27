@@ -1,0 +1,48 @@
+package StepDefinition;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import PageFactory.Page_de_connexion_EP;
+import cucumber.api.java.en.And;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+import junit.framework.Assert;
+
+public class Connexion_EP_steps2 {
+
+	String driverPath = "D:\\Utilitaire Selenium avec Java\\geckodriver.exe";
+	String geckoKey = "webdriver.gecko.driver";
+	WebDriver driver;
+	Page_de_connexion_EP PageConnexion;
+
+	@Given("^Ouvre la Home Page de SeLoger$")
+	public void ouvrir_la_home_page_sl() throws Throwable {
+		System.setProperty(geckoKey, driverPath);
+		  this.driver=new FirefoxDriver();
+		  this.driver.manage().window().maximize();
+		  this.driver.get("https://seloger.com");
+		  this.PageConnexion=new Page_de_connexion_EP(driver);
+		System.out.println("Ouverture de la HP");
+	}
+
+	@When("^Clique sur le bouton d'accès à l'EP$")
+	public void ouvrir_l_EP() throws Throwable {
+		(driver.findElement(By.xpath("//button[contains(text(),'Créer un compte')]"))).click();
+		System.out.println("Ouverture du popin EP");
+	}
+	
+	@Then("^Choisir l'onglet 'Se connecter'$")
+	public void choisir_onglet_se_connecter() {
+		PageConnexion.ongletConnexion.click();
+		System.out.println("Onglet 'Se connecter' choisi");
+	}
+	
+
+
+}

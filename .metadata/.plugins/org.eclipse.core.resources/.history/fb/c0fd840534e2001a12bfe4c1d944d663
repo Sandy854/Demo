@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testng-results failed="0" passed="1" skipped="0" total="1">
+<suite duration-ms="30678" name="cucumber.runtime.formatter.TestNGFormatter">
+<test duration-ms="30678" name="cucumber.runtime.formatter.TestNGFormatter">
+<class name="Connexion à l'Espace Perso de SeLoger">
+<test-method duration-ms="30678" finished-at="2020-08-19T18:49:28Z" name="Vérificaiton de la connexion à l'Espace Perso" started-at="2020-08-19T18:48:58Z" status="PASS"/>
+</class>
+</test>
+</suite>
+</testng-results>

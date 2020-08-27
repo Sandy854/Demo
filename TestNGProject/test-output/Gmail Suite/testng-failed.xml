@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Gmail Suite]" parallel="tests">
+  <test name="search(failed)" parallel="tests">
+    <classes>
+      <class name="testngpackage.Test_1">
+        <methods>
+          <include name="executSessionOne"/>
+        </methods>
+      </class> <!-- testngpackage.Test_1 -->
+    </classes>
+  </test> <!-- search(failed) -->
+</suite> <!-- Failed suite [Gmail Suite] -->
